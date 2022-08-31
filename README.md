@@ -1,7 +1,8 @@
 # Seq2seq Web Attack Detection
 Макет обнаружения аномальных HTTP-запросов к веб-серверу.
 
-Макет представляет из себя интерактивный блокнот Jupyter Noteboook seq2seq-web-attack-detection.ipynb с программной реализацией на Python 3.6.8
+Макет представляет из себя интерактивный блокнот Jupyter Noteboook __seq2seq-web-attack-detection.ipynb__ с программной реализацией на Python 3.6.8.
+
 Для работы с ним необходимо установить Jupyter:
 
 > pip install jupyter
@@ -10,26 +11,23 @@
 
 > jupyter notebook
 
-и открыть в нем файл блокнота seq2seq-web-attack-detection.ipynb
+и открыть файл блокнота seq2seq-web-attack-detection.ipynb
 
 Зависимости от сторонних библиотек и их версий перечислены в requirements.txt.
 Для установки библиотек необходимо воспользоваться pip:
 
 > pip install -r requirements.txt
 
-
 К макету также прилагаются следующие файлы:
 
-	- utils.py - библиотека собственных функций
+- utils.py - библиотека собственных функций
     
-	- train.txt, anomaly.txt - файлы с обучающими (нормальными) и тестовыми (аномальными) HTTP-запросами к 
-        	веб-серверу
+- train.txt, anomaly.txt - файлы с обучающими (нормальными) и тестовыми (аномальными) HTTP-запросами к веб-серверу
     
     
-Референсы макета:
-https://github.com/skolpin/seq2seq-web-attack-detection/PT slides/detecting_web_attacks_rnn.pdf
-https://habr.com/ru/company/pt/blog/439202/
-
+Референсы макета и источник данных:
+- https://github.com/skolpin/seq2seq-web-attack-detection/slides/detecting_web_attacks_rnn.pdf
+- https://habr.com/ru/company/pt/blog/439202/
 
 
 Сам макет seq2seq-web-attack-detection.ipynb при работе загружает из файлов train.txt и anomaly.txt нормальные и аномальные запросы, разбивает нормальные 
