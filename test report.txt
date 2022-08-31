@@ -1,0 +1,11 @@
+Test report:
+____________
+Accuracy score  : 0.9990884229717412
+Precision score : 1.0
+Recall score    : 0.9981768459434822
+F1 score        : 0.9990875912408759
+
+Confusion matrix:
+             pred:anomal  pred:normal
+true:anomal         1095            2
+true:normal            0         1097
