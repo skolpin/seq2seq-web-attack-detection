@@ -26,7 +26,7 @@
     
     
 Референсы макета и источник данных:
-- https://github.com/skolpin/seq2seq-web-attack-detection/slides/detecting_web_attacks_rnn.pdf
+- https://github.com/skolpin/seq2seq-web-attack-detection/blob/main/slides/detecting_web_attacks_rnn.pdf
 - https://habr.com/ru/company/pt/blog/439202/
 
 
