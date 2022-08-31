@@ -1,7 +1,7 @@
 # Seq2seq Web Attack Detection
 Макет обнаружения аномальных HTTP-запросов к веб-серверу.
 
-Макет представляет из себя интерактивный блокнот Jupyter Noteboook seq2seq-web-attack-detection.ipynb с программной реализацией на Python 3.6.8.
+Макет представляет из себя интерактивный блокнот Jupyter Noteboook __seq2seq-web-attack-detection.ipynb__ с программной реализацией на Python 3.6.8.
 
 Для работы с ним необходимо установить Jupyter:
 
